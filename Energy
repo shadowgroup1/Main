@@ -1,0 +1,12 @@
+package com.shadow;
+
+public class Energy extends Physics {
+
+    public void accessingGravity(){
+        System.out.println(getGravity());
+        setGravity(9.8f);
+        System.out.println(getGravity());
+    }
+
+
+}
