@@ -1,0 +1,16 @@
+package com.shadow;
+
+public class Physics {
+
+    private float gravity = 9.8f;
+    public float getGravity() {
+        return gravity;
+    }
+    public void setGravity(float gravity) {
+        this.gravity = gravity;
+    }
+    float potentialenergy(float mass, float height, float gravity){
+        return  (mass * height * gravity);
+    }
+
+}
